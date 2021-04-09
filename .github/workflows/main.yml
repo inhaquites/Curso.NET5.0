@@ -1,4 +1,4 @@
-name: CI - Integração Contínua
+name: CI - To Main
 
 on:
   push:
