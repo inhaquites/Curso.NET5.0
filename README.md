@@ -10,12 +10,16 @@
 <p float="left" align="center" >
   <img src="./assets/img/EFCore.JPG" width="145" hspace="10" style="border-radius:10px;"/>  
   <img src="./assets/img/jwt.svg" width="165" hspace="10" style="border-radius:10px;"/>  
-  <img src="./assets/img/xunit.svg" width="150" hspace="10" />    
+  <img src="./assets/img/VSCode.svg" width="100" hspace="10" />
+  
+</p>
+<p float="left" align="center" >
+  <img src="./assets/img/xunit.svg" width="200" hspace="10" />    
 </p>
 <p float="left" align="center" >
   <img src="./assets/img/AutoMapper.png" width="450" hspace="10" />  
 </p>
-<p float="left" align="center" >
+<p float="left" align="center" >  
   <img src="./assets/img/mysql.svg" width="200" hspace="10" />
   <img src="./assets/img/sqlserver.svg" width="150" hspace="10" />
 </p>
