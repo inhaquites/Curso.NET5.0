@@ -1,6 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace Api.Data.Context
 {
@@ -27,7 +28,9 @@ namespace Api.Data.Context
       // {
       //   //conexao MySQL
       //   var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION");
-      //   optionsBuilder.UseMySql(connectionString);
+      //   optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8,0,21)),
+      //            mySqlOptions => mySqlOptions.CharSetBehavior(CharSetBehavior.NeverAppend)
+      //);
       // }
 
 

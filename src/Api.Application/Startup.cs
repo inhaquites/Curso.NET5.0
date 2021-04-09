@@ -95,8 +95,8 @@ namespace application
         c.SwaggerDoc("v1", new OpenApiInfo
         {
           Version = "v1",
-          Title = "Curso de API com AspNetCore 3.1 - Na Prática",
-          Description = "Arquitetura DDD",
+          Title = "Curso de API com .NetCore 3.1/.NET5.0 - Na Prática",
+          Description = "Arquitetura DDD - Atualizado em 09/04/2021",
           TermsOfService = new Uri("http://www.inhaquites.com.br"),
           Contact = new OpenApiContact
           {
@@ -144,7 +144,7 @@ namespace application
       app.UseSwagger();
       app.UseSwaggerUI(c =>
       {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com .NetCore 3.1/.NET5.0 - Na Prática");
         c.RoutePrefix = string.Empty;
       });
 

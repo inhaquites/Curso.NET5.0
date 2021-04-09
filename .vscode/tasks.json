@@ -44,7 +44,7 @@
       "type": "process",
       "args": [
         "test",
-        "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj",
+        "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj"
       ]
     },
     {
@@ -53,7 +53,7 @@
       "type": "process",
       "args": [
         "test",
-        "${workspaceFolder}/src/Api.Service.Test/Api.Service.Test.csproj",
+        "${workspaceFolder}/src/Api.Service.Test/Api.Service.Test.csproj"
       ]
     },
     {
@@ -62,8 +62,9 @@
       "type": "process",
       "args": [
         "test",
-        "${workspaceFolder}/src/Api.Application.Test/Api.Application.Test.csproj",
-      ]
+        "${workspaceFolder}/src/Api.Application.Test/Api.Application.Test.csproj"
+      ],
+      "problemMatcher": []
     },
     {
       "label": "Integration.Testes",
@@ -71,8 +72,9 @@
       "type": "process",
       "args": [
         "test",
-        "${workspaceFolder}/src/Api.Integration.Test/Api.Integration.Test.csproj",
-      ]
+        "${workspaceFolder}/src/Api.Integration.Test/Api.Integration.Test.csproj"
+      ],
+      "problemMatcher": []
     }
   ]
 }
