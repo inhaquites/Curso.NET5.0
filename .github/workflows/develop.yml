@@ -1,0 +1,28 @@
+name: CI - To Develop01 Branch
+
+on:
+  push:
+    branches: [ Develop01 ]
+  pull_request:
+    branches: [ Develop01 ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: .NET 5 Application
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET 5
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.202
+        
+    - name: Restauração de Dependencies
+      run: dotnet restore ./src
+      
+    - name: Build do Projeto
+      run: dotnet build --no-restore  ./src
+    
+    #- name: Testes Automatizados      
+      #run: dotnet test --no-build --verbosity normal  ./src
