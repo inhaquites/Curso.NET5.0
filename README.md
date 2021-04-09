@@ -14,7 +14,8 @@
   
 </p>
 <p float="left" align="center" >
-  <img src="./assets/img/xunit.svg" width="200" hspace="10" />    
+<img src="./assets/img/logo-128-transparent.png" width="60" style="margin-right: -40px;" />
+  <img src="./assets/img/xunit.svg" width="300" />
 </p>
 <p float="left" align="center" >
   <img src="./assets/img/AutoMapper.png" width="450" hspace="10" />  
